@@ -91,8 +91,6 @@
     <module name="UnnecessaryParentheses"/>
     <module name="OneStatementPerLine"/>
 
-    <!-- header -->
-
     <!-- imports -->
     <module name="AvoidStarImport"/>
     <!-- <module name="AvoidStaticImport"/> -->
@@ -225,6 +223,8 @@
 
   <!-- duplicate code -->
   <!-- <module name="StrictDuplicateCode"/> -->
+
+  <!-- header -->
 
   <!-- miscellaneous -->
   <module name="NewlineAtEndOfFile">
