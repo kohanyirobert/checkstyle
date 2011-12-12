@@ -85,7 +85,7 @@
     <module name="MissingCtor"/>
     <module name="FallThrough"/>
     <module name="MultipleStringLiterals">
-      <property name="ignoreStringsRegexp" value='^((" ?")|(", ?"))$'/>
+      <property name="ignoreStringsRegexp" value='^"[ ,:;.?]?"$'/>
     </module>
     <module name="MultipleVariableDeclarations"/>
     <module name="UnnecessaryParentheses"/>
