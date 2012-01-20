@@ -44,7 +44,6 @@
     <module name="EmptyStatement"/>
     <module name="EqualsAvoidNull"/>
     <module name="EqualsHashCode"/>
-    <!-- <module name="FinalLocalVariable"/> -->
     <module name="HiddenField">
       <property name="tokens" value="VARIABLE_DEF"/>
       <property name="ignoreConstructorParameter" value="true"/>
@@ -93,29 +92,11 @@
 
     <!-- imports -->
     <module name="AvoidStarImport"/>
-    <!-- <module name="AvoidStaticImport"/> -->
     <module name="IllegalImport"/>
     <module name="RedundantImport"/>
     <module name="UnusedImports"/>
-    <!-- <module name="ImportOrder">
-      <property name="option" value="above"/>
-      <property name="separated" value="true"/>
-    </module> -->
 
     <!-- javadoc comments -->
-    <!--- <module name="JavadocType">
-     <property name="scope" value="protected"/>
-    </module>
-    <module name="JavadocMethod">
-      <property name="scope" value="protected"/>
-      <property name="allowUndeclaredRTE" value="true"/>
-    </module>
-    <module name="JavadocVariable">
-      <property name="scope" value="protected"/>
-    </module>
-    <module name="JavadocStyle">
-      <property name="scope" value="protected"/>
-    </module> -->
 
     <!-- metrics -->
     <module name="BooleanExpressionComplexity"/>
@@ -135,7 +116,6 @@
     <module name="UncommentedMain"/>
     <module name="UpperEll"/>
     <module name="ArrayTypeStyle"/>
-    <!-- <module name="FinalParameters"/> -->
     <module name="Indentation">
       <property name="basicOffset" value="2"/>
       <property name="caseIndent" value="2"/>
@@ -220,10 +200,8 @@
   </module>
 
   <!-- javadoc comments -->
-  <!-- <module name="JavadocPackage"/> -->
 
   <!-- duplicate code -->
-  <!-- <module name="StrictDuplicateCode"/> -->
 
   <!-- header -->
 

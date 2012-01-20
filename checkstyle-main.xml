@@ -44,7 +44,6 @@
     <module name="EmptyStatement"/>
     <module name="EqualsAvoidNull"/>
     <module name="EqualsHashCode"/>
-    <!-- <module name="FinalLocalVariable"/> -->
     <module name="HiddenField">
       <property name="tokens" value="VARIABLE_DEF"/>
       <property name="ignoreConstructorParameter" value="true"/>
@@ -97,10 +96,6 @@
     <module name="IllegalImport"/>
     <module name="RedundantImport"/>
     <module name="UnusedImports"/>
-    <!-- <module name="ImportOrder">
-      <property name="option" value="above"/>
-      <property name="separated" value="true"/>
-    </module> -->
 
     <!-- javadoc comments -->
     <module name="JavadocType">
@@ -223,7 +218,6 @@
   <module name="JavadocPackage"/>
 
   <!-- duplicate code -->
-  <!-- <module name="StrictDuplicateCode"/> -->
 
   <!-- header -->
 
