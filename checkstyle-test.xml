@@ -84,7 +84,7 @@
     <module name="MissingCtor"/>
     <module name="FallThrough"/>
     <module name="MultipleStringLiterals">
-      <property name="ignoreStringsRegexp" value='^".{1,3}?"$'/>
+      <property name="ignoreStringsRegexp" value='^".{0,3}?"$'/>
       <property name="allowedDuplicates" value="10"/>
     </module>
     <module name="MultipleVariableDeclarations"/>
