@@ -1,9 +1,7 @@
 # About
 
-[Checkstyle][1] configurations for to use with [eclipse-cs][2] and
-[maven-checkstyle-plugin][3]. Separate configurations are provided to be applied
-separately on the *main* and *test* codebases respectively.
+[Checkstyle][1] configurations for [*main*][2] and [*test*][3] codebases.
 
 [1]: http://checkstyle.sourceforge.net/
-[2]: http://eclipse-cs.sourceforge.net/
-[3]: http://maven.apache.org/plugins/maven-checkstyle-plugin/
+[2]: http://git.io/sEuNSA
+[3]: http://git.io/wqqbhg
