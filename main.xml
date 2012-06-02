@@ -247,8 +247,28 @@
     <property name="checkFormat" value="$1"/>
   </module>
   <module name="SuppressWithNearbyCommentFilter">
-    <property name="commentFormat" value="@do-not-check (.*)"/>
+    <property name="commentFormat" value="@do-not-check-current-line (.*)"/>
     <property name="checkFormat" value="$1"/>
-    <property name="influenceFormat" value="3"/>
+    <property name="influenceFormat" value="0"/>
+  </module>
+  <module name="SuppressWithNearbyCommentFilter">
+    <property name="commentFormat" value="@do-not-check-previous-line (.*)"/>
+    <property name="checkFormat" value="$1"/>
+    <property name="influenceFormat" value="-1"/>
+  </module>
+  <module name="SuppressWithNearbyCommentFilter">
+    <property name="commentFormat" value="@do-not-check-next-line (.*)"/>
+    <property name="checkFormat" value="$1"/>
+    <property name="influenceFormat" value="1"/>
+  </module>
+  <module name="SuppressWithNearbyCommentFilter">
+    <property name="commentFormat" value="@do-not-check-previous-(\d+)-lines (.*)"/>
+    <property name="checkFormat" value="$2"/>
+    <property name="influenceFormat" value="-$1"/>
+  </module>
+  <module name="SuppressWithNearbyCommentFilter">
+    <property name="commentFormat" value="@do-not-check-next-(\d+)-lines (.*)"/>
+    <property name="checkFormat" value="$2"/>
+    <property name="influenceFormat" value="$1"/>
   </module>
 </module>
